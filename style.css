@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PROBE_10PX';
+    src: url('PROBE_10PX_TTF.woff2') format('woff2'),
+        url('PROBE_10PX_TTF.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
