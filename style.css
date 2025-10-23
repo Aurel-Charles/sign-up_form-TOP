@@ -169,7 +169,7 @@ input[type="password"]:invalid{
   box-shadow: 0 0px 3px red;
 }
 
-input:valid{
+input :valid{
   border-color: green;
   box-shadow: 0 0px 3px green;
 }
