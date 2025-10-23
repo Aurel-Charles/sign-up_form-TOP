@@ -131,7 +131,7 @@ a:hover {
 
 /* form */
 form{
-
+  flex: 1
 }
 
 .form-fill{
@@ -141,7 +141,7 @@ form{
 }
 
 input{
-  width: 16rem;
+  width: 16rem 
 }
 
 label{
@@ -153,6 +153,7 @@ label{
   display: flex;
   flex-direction: column;
   margin: 1rem 2rem 1rem 0;
+  flex: 0 1 auto;
 }
 
 .row{
@@ -162,6 +163,7 @@ label{
 input{
   border-radius: 2px;
   border: solid 1px grey;
+  flex: 1 1 auto;
 }
 
 input[type="password"]:invalid{
@@ -188,6 +190,6 @@ button[type="submit"]{
   background-color: rgb(31, 79, 104); 
 }
 .login{
-  margin: 0 0 3rem 3rem;
+  margin: 1rem 0 3rem 3rem;
 }
 
